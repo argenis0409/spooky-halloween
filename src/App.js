@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Home from './components/home/Home';
+import Header from './components/header/Header'
 
 class App extends Component {
   constructor(props) {
@@ -25,6 +26,7 @@ clicked() {
     }
     return (
       <div className='main-container'>
+        <Header />
         <h1>Start Here</h1>
         <button onClick={this.clicked}>Click me</button>
         {/* {!display ?
