@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Home from './components/home/Home';
 import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
 
 class App extends Component {
   constructor(props) {
@@ -28,6 +29,7 @@ clicked() {
       <div className='main-container'>
         <Header />
         <h1>Start Here</h1>
+        <Footer />
         <button onClick={this.clicked}>Click me</button>
         {/* {!display ?
           <Home />
