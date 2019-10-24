@@ -6,9 +6,10 @@ Welcome to my halloween website, hope you like it.
 
 - Created a base build of react with webpack and babel 
 
-## setup download or clone project
-
+## Setup
+Fork/clone the repo then run the following commands:
 ```
 npm install
+npm run build
 npm start
 ```

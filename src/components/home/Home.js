@@ -3,11 +3,12 @@ import React, { Component } from 'react';
  import Footer from '../footer/Footer'
 
 export default class Home extends Component {
+
   render() {
     return (
       <div>
         <Header />
-        <h1>Home page</h1>
+        <h1 className="home-spooky"> Spooky Halloween</h1>
         <Footer />
       </div>
     )
